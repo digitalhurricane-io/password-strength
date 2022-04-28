@@ -1,15 +1,15 @@
 {
-  "name": "@angular-material-extensions/password-strength",
+  "name": "@digitalhurricane/password-strength",
   "description": "Material password strength meter to indicate how secure is the provided password",
-  "version": "10.1.1",
-  "homepage": "https://github.com/angular-material-extensions/password-strength",
+  "version": "10.2.1",
+  "homepage": "https://github.com/digitalhurricane-io/password-strength",
   "author": {
     "name": "anthonynahas",
     "url": "https://github.com/anthonynahas"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/angular-material-extensions/password-strength.git"
+    "url": "git://github.com/digitalhurricane-io/password-strength.git"
   },
   "license": "MIT",
   "schematics": "./schematics/collection.json",
