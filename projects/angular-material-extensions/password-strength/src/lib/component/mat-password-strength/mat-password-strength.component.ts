@@ -36,6 +36,8 @@ export class MatPasswordStrengthComponent implements OnInit, OnChanges, AfterCon
   @Input() password: string;
   @Input() externalError: boolean;
 
+  @Input() greenWhenValid: string;
+
   @Input() enableLengthRule = true;
   @Input() enableLowerCaseLetterRule = true;
   @Input() enableUpperCaseLetterRule = true;

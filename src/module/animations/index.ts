@@ -5,7 +5,7 @@ export function flipIn(timing: number, rotateX: number, rotateY: number): Animat
 
   return animation(
     [
-      style({'backface-visibility': 'visible'}),
+      //style({'backface-visibility': 'visible'}),
       animate(
         '{{ timing }}s {{ delay }}s ease-in',
         keyframes([

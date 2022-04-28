@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port 4510",
+    "serve:external": "ng serve --port 4510 --host 0.0.0.0",
     "build": "ng build --statsJson",
     "build:client-and-server-bundles:ghpages": "npm run build:prod:ghpages && ng run password-strength:server:production --bundleDependencies all",
     "build:docs": "npx compodoc -p projects/angular-material-extensions/password-strength/tsconfig.lib.json --hideGenerator --disableCoverage -d dist/browser/doc/",
