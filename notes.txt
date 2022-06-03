@@ -1,0 +1,7 @@
+
+deploy note:
+bump version number
+cd into lib project:
+npm run build
+cd into dist project dir:
+npm publish

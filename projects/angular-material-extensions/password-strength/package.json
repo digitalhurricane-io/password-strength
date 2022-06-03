@@ -1,7 +1,7 @@
 {
   "name": "@digitalhurricane/password-strength",
   "description": "Material password strength meter to indicate how secure is the provided password",
-  "version": "10.2.1",
+  "version": "10.2.2",
   "homepage": "https://github.com/digitalhurricane-io/password-strength",
   "author": {
     "name": "anthonynahas",
